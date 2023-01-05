@@ -20,6 +20,5 @@ services:
     command: npm run dev
   mongo:
     environment:
-      - name=value
       - MONGO_INITDB_ROOT_USERNAME=tworkman
       - MONGO_INITDB_ROOT_PASSWORD=mypassword
